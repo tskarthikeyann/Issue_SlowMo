@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "432023227.311027"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
             landmarkName = "-setupAVplayer"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "431346331.707187"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-butt3:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "278"
-            endingLineNumber = "278"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "-ramp"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "-ramp"
             landmarkType = "5">
             <Locations>
@@ -104,11 +104,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "271"
-            endingLineNumber = "271"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
             landmarkName = "-ramp"
             landmarkType = "5">
          </BreakpointContent>
@@ -120,11 +120,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "-ramp"
             landmarkType = "5">
          </BreakpointContent>
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
             landmarkName = "-ramp"
             landmarkType = "5">
          </BreakpointContent>
@@ -152,44 +152,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
+            timestampString = "433068212.622862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "-ramp"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "296"
-            endingLineNumber = "296"
-            landmarkName = "-writeFinalVideo:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AVPlayer_2/hubViewController.m"
-            timestampString = "433059468.185957"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
-            landmarkName = "-writeFinalVideo:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

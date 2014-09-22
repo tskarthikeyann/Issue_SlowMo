@@ -69,13 +69,6 @@ AVAsset *asset;
     
     if (self.avPlayer.currentItem != self.mPlayerItem1)
     {
-        /* Replace the player item with a new player item. The item replacement occurs
-         asynchronously; observe the currentItem property to find out when the
-         replacement will/did occur
-		 
-		 If needed, configure player item here (example: adding outputs, setting text style rules,
-		 selecting media options) before associating it with a player
-		 */
         [self.avPlayer replaceCurrentItemWithPlayerItem:self.mPlayerItem1];
         
     }
@@ -87,13 +80,7 @@ AVAsset *asset;
     /* Make our new AVPlayerItem the AVPlayer's current item. */
     if (self.avPlayer.currentItem != self.mPlayerItem2)
     {
-        /* Replace the player item with a new player item. The item replacement occurs
-         asynchronously; observe the currentItem property to find out when the
-         replacement will/did occur
-		 
-		 If needed, configure player item here (example: adding outputs, setting text style rules,
-		 selecting media options) before associating it with a player
-		 */
+
         [self.avPlayer replaceCurrentItemWithPlayerItem:self.mPlayerItem2];
         
     }
@@ -121,13 +108,7 @@ AVAsset *asset;
     /* Make our new AVPlayerItem the AVPlayer's current item. */
     if (self.avPlayer.currentItem != self.mPlayerItem3)
     {
-        /* Replace the player item with a new player item. The item replacement occurs
-         asynchronously; observe the currentItem property to find out when the
-         replacement will/did occur
-		 
-		 If needed, configure player item here (example: adding outputs, setting text style rules,
-		 selecting media options) before associating it with a player
-		 */
+
         [self.avPlayer replaceCurrentItemWithPlayerItem:self.mPlayerItem3];
         
     }
@@ -144,13 +125,7 @@ AVAsset *asset;
     /* Make our new AVPlayerItem the AVPlayer's current item. */
     if (self.avPlayer.currentItem != self.rampPlayerItem)
     {
-        /* Replace the player item with a new player item. The item replacement occurs
-         asynchronously; observe the currentItem property to find out when the
-         replacement will/did occur
-		 
-		 If needed, configure player item here (example: adding outputs, setting text style rules,
-		 selecting media options) before associating it with a player
-		 */
+
         [self.avPlayer replaceCurrentItemWithPlayerItem:self.rampPlayerItem];
         
     }
@@ -240,11 +215,7 @@ AVAsset *asset;
     
     self.rampPlayerItem = [AVPlayerItem playerItemWithAsset:Copy_of_MutableComposition];
     
-//    if([self.rampPlayerItem status] == AVPlayerItemStatusReadyToPlay){
-//        [self PlayRenderedOutput];}
-//    else{
-//        NSLog(@"Error in player item");
-//    }
+
     
     [self PlayRenderedOutput];
 
@@ -276,7 +247,7 @@ AVAsset *asset;
                 if(exportSession.status == AVAssetExportSessionStatusCompleted){
 
 
- //                 [self writeFinalVideo:finalVideoUrl];
+   //               [self writeFinalVideo:finalVideoUrl];
                     
                     
                 }
@@ -289,32 +260,7 @@ AVAsset *asset;
 }
 
 
-- (void)writeFinalVideo:(NSURL *)url
-{
-    _renderedURL = url;
-    
-	ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-	
-	[library writeVideoAtPathToSavedPhotosAlbum:url completionBlock:^(NSURL *assetURL, NSError *error){
-		if (error) {
-            
-			NSLog(@"Final Video could not be saved");
-		}
-        else{
-            NSLog(@"Final Video be saved");
- //           [self finalOutput];
-            
- //               self.mPlayerItem3 = [AVPlayerItem playerItemWithAsset:_asset3];
-            
-//            self.mPlayerItem3 = [AVPlayerItem playerItemWithURL:url];
-            
-//            AVURLAsset *asset_of_Ramp = [[AVURLAsset alloc] initWithURL:url
-//                                                                options:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], AVURLAssetPreferPreciseDurationAndTimingKey, nil]];
-//            [self playMutableCompositon:asset_of_Ramp];
-//            [self.avPlayer play];
-        }
- 	}];
-}
+
 
 
 
