@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>492C0B01-286F-4F1A-9E4C-EB7DFBED52FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AVPlayer_2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0991465291DBDF4E01F68D4DB6660303C436A2CF</key>
+		<string>https://github.com/tskarthikeyann/Issue_SlowMo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AVPlayer_2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0991465291DBDF4E01F68D4DB6660303C436A2CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tskarthikeyann/Issue_SlowMo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0991465291DBDF4E01F68D4DB6660303C436A2CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0991465291DBDF4E01F68D4DB6660303C436A2CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Issue_SlowMo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

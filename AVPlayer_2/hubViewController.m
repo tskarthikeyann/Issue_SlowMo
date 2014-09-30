@@ -179,16 +179,16 @@ AVAsset *asset;
         
         [compositionAudioTrack setPreferredTransform:sourceAudioTrack.preferredTransform];
         
-        Float64 difference = 7.0-1.0;
-        double scaling = 6.0;
-        double totalDuration = difference*1000;
-        double stTime = 1.0 *1000;
-        double nd = 10;
         
-        for (int i=0; i<nd; i++) {
+        double scaling = 6.0; // scale value to determind the time stretch depth
+        double totalDuration = 11.0*1000; // for how many seconds the video has to be slow mo'ed from the below starttime.
+        double stTime = 1.0 *1000; // start time of the video
+        double fragment = (totalDuration/1000) * 30; // actually, here 30 is nothing but the fps.
+        
+        for (int i=0; i<fragment; i++) {
             
-            double tInterval = (totalDuration/nd);
-            double t = (1/nd)*i;
+            double tInterval = (totalDuration/fragment);
+            double t = (1/fragment)*i;
             //                    double scale = scaling - (t*t*(scaling-1));
             double scale = 1+(scaling-1)*(0.5-0.5*cos(2*M_PI*t));
             
